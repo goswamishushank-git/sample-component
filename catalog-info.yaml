@@ -4,9 +4,9 @@ metadata:
   name: sample-service
   description: demo service
   annotations:
-    github.com/project-slug: goswamishushank-git/sample-component
+    github.com/project-slug: ramannkhanna2/test
 spec:
   type: service
   owner: team-a
   lifecycle: experimental
-  dependsOn: ['component: example-website']
+  dependsOn: ['component:example-website']
